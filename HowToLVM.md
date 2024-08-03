@@ -5,7 +5,6 @@ mkfs.ext4 /dev/sdx
 sudo vgextend ubuntu-vg /dev/sdx
 ```
 
-## sudo vgs ----> ubuntu-vg
 ```
 sudo lvextend -l +50%FREE /dev/mapper/lv-0
 sudo resize2fs /dev/mapper/lv-0
